@@ -1,0 +1,65 @@
+/* Body styling */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font for the entire page */
+    color: #333; /* Dark gray text color */
+    line-height: 1.6; /* Increased line height for readability */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Padding around the body */
+}
+
+/* Header styling */
+h1 {
+    color: #4CAF50; /* Green color for the header */
+    font-size: 2.5em; /* Larger font size for the main heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em; /* Default font size */
+    color: #555; /* Medium gray text color */
+    margin: 15px 0; /* Vertical spacing between paragraphs */
+}
+
+/* Link styling */
+a {
+    color: #1E90FF; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Layout for a container */
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    margin-top: 20px; /* Space above the container */
+}
+
+/* Styling for individual items in the container */
+.item {
+    background-color: #fff; /* White background for items */
+    padding: 20px; /* Padding inside items */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    flex: 1; /* Flex grow */
+    margin: 0 10px; /* Margin between items */
+}
